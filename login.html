@@ -2,7 +2,7 @@
 <html>   
 <head>  
 <meta name="viewport" content="width=device-width, initial-scale=1">  
-<title> Login</title>  
+<title> Login [|Admins Only ;)|]</title>  
 <style>   
 Body {  
   font-family: Calibri, Helvetica, sans-serif;  
@@ -43,16 +43,17 @@ button {
         background-color: skyblue;  
     }   
 </style>   
+<script>"login.cs"</script>
 </head>    
 <body>    
     <center> <h1> Login</h1> </center>   
     <form>  
         <div class="container">   
-            <label>Username : </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Email : </label>   
+            <input type="text" placeholder="Enter Email" name="email" required>  
             <label>Password : </label>   
             <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit" user.cs.main(username,password)>Login</button>   
+            <button type="submit" login.cs.main(email)><a></a>Login</a></button>
             <input type="checkbox" checked="checked"> Remember me   
             <button type="button" class="cancelbtn"> Cancel</button>   
             Forgot <a href="mailto:simonsmithcampion9@gmail.com"> password? </a>   
